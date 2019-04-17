@@ -1,0 +1,15 @@
+{
+	"name":"Starbootstrap Clean Blog",
+	"version":"1.0.0",
+	"description":"Based on the Clean Blog template from startbootstrap.com",
+	"options":{
+		"color":{
+			"default":"orangered"
+		},
+		"header-image":{
+			"type":"media"
+		},
+		"footer-text":{
+		}
+	}
+}
