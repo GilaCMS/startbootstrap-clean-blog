@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/package-json/v/vzuburlis/startbootstrap-clean-blog.svg">
+<img src="https://img.shields.io/github/package-json/v/GilaCMS/startbootstrap-clean-blog.svg">
 
 Startbootstrap Clean Blog
 =========================
