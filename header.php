@@ -2,13 +2,6 @@
 <html lang="<?=gila::config('language')?>">
 
 <head>
-    <base href="<?=gila::base_url()?>">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title><?=gila::config('base')?></title>
     <?php
     view::stylesheet('lib/bootstrap/bootstrap.min.css');
     view::stylesheet('themes/startbootstrap-clean-blog/css/clean-blog.css');
@@ -16,9 +9,8 @@
     view::stylesheet('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
     view::stylesheet('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
     ?>
-    <?php view::links(); ?>
+    <?php view::head(false); ?>
     <style>.site-heading h1,.subheading,.post-heading h1 {text-shadow: 0 1px 6px #333; }</style>
-    <?php event::fire('head')?>
 </head>
 
 <body>
