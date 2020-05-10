@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="<?=gila::config('language')?>">
+<html lang="<?=Gila::config('language')?>">
 
 <head>
     <?php
-    view::stylesheet('lib/bootstrap/bootstrap.min.css');
-    view::stylesheet('themes/startbootstrap-clean-blog/css/clean-blog.css');
-    view::stylesheet('lib/font-awesome/css/font-awesome.min.css');
-    view::stylesheet('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
-    view::stylesheet('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+    View::stylesheet('lib/bootstrap/bootstrap.min.css');
+    View::stylesheet('themes/startbootstrap-clean-blog/css/clean-blog.css');
+    View::stylesheet('lib/font-awesome/css/font-awesome.min.css');
+    View::stylesheet('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
+    View::stylesheet('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
     ?>
-    <?php view::head(false); ?>
+    <?php View::head(false); ?>
     <style>.site-heading h1,.subheading,.post-heading h1 {text-shadow: 0 1px 6px #333; }</style>
 </head>
 
@@ -24,12 +24,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href=""><?=gila::config('title')?></a>
+                <a class="navbar-brand" href=""><?=Gila::config('title')?></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <?php view::menu('mainmenu','tpl/menu.bootstrap.php'); ?>
+                <?php View::menu('mainmenu','tpl/menu.bootstrap.php'); ?>
             </div>
 
             <!-- /.navbar-collapse -->

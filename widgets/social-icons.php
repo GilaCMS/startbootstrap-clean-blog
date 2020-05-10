@@ -1,4 +1,4 @@
-<?=view::cssAsync('lib/font-awesome/css/font-awesome.min.css')?>
+<?=View::cssAsync('lib/font-awesome/css/font-awesome.min.css')?>
 <style>
 .widget-social-icons li{list-style: none;display: inline-block}
 </style>
